@@ -8,10 +8,14 @@ button{
     padding: 10px; 
     width: 150px;
     padding-bottom: 10px;
-    border: none;
+    border: 1ps solid rgba(211, 130, 236, 0.349);
     color: white;
     background: #4ea5c7;
-background: linear-gradient(142deg,rgba(78, 165, 199, 1) 0%, rgba(79, 162, 200, 1) 0%, rgba(104, 85, 230, 1) 48%, rgba(105, 28, 173, 1) 99%, rgba(105, 28, 173, 1) 100%);
+    background: linear-gradient(142deg,rgba(78, 165, 199, 1) 0%, rgba(79, 162, 200, 1) 0%, rgba(104, 85, 230, 1) 48%, rgba(105, 28, 173, 1) 99%, rgba(105, 28, 173, 1) 100%);
+
+}
+body{
+    font-family: "Roboto", sans-serif;
 }
 section#home{
     height: 100vh ;
@@ -40,4 +44,15 @@ section#home header nav ul li a{
     color: white;
     text-decoration: none;
     font-size: 1.2 rem;
+}
+section#home #content{
+    display: flex;
+
+}
+sectionhome #content div{
+    flex:1;
+}
+section#home #content h2{
+    font-size: 4rem;
+    color: white;
 }
