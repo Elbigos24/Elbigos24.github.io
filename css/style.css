@@ -2,6 +2,17 @@
     margin:0;
     padding: 0;
 }
+button{
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px; 
+    width: 150px;
+    padding-bottom: 10px;
+    border: none;
+    color: white;
+    background: #4ea5c7;
+background: linear-gradient(142deg,rgba(78, 165, 199, 1) 0%, rgba(79, 162, 200, 1) 0%, rgba(104, 85, 230, 1) 48%, rgba(105, 28, 173, 1) 99%, rgba(105, 28, 173, 1) 100%);
+}
 section#home{
     height: 100vh ;
     background: #691cad;
