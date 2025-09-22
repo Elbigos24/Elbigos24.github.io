@@ -8,7 +8,6 @@ button{
     padding: 10px; 
     width: 150px;
     padding-bottom: 10px;
-    border: 1ps solid rgba(211, 130, 236, 0.349);
     color: white;
     background: #4ea5c7;
     background: linear-gradient(142deg,rgba(78, 165, 199, 1) 0%, rgba(79, 162, 200, 1) 0%, rgba(104, 85, 230, 1) 48%, rgba(105, 28, 173, 1) 99%, rgba(105, 28, 173, 1) 100%);
@@ -21,7 +20,7 @@ section#home{
     height: 100vh ;
     background: #691cad;
     padding-left: 50px;
-     padding-right: 50px;
+    padding-right: 50px;
     background: linear-gradient(142deg,rgba(105, 28, 173, 1) 5%, rgba(105, 28, 173, 1) 5%, rgba(104, 85, 230, 1) 55%, rgba(78, 165, 199, 1) 95%);
 }
 section#home header{
@@ -47,12 +46,39 @@ section#home header nav ul li a{
 }
 section#home #content{
     display: flex;
+    margin-top: 100px;
 
 }
-sectionhome #content div{
+section#home >  #content  > div{
     flex:1;
 }
-section#home #content h2{
+section#home #content div h2{
     font-size: 4rem;
     color: white;
+}
+section#home #content div P{
+    color: white; 
+   
+}
+section#home > #content > div > div{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+section#home #content div img{
+    border-radius: 100%;
+}
+section#about{
+    height: 100vh ;
+    background: #691cad;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: linear-gradient(142deg,rgba(105, 28, 173, 1) 5%, rgba(105, 28, 173, 1) 5%, rgba(104, 85, 230, 1) 55%, rgba(78, 165, 199, 1) 95%);
+}
+section#about #aboutt div{
+    display: flex;
+}
+section#about #aboutt div img{
+    border-radius: 100%;
 }
