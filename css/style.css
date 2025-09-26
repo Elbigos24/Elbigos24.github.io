@@ -96,10 +96,98 @@ section#about> #aboutt >div>div#acerca{
     font-family: "Roboto", sans-serif;
     font-size: 3rem;
 }
+section#about> #aboutt >div>div#parrafo{
+    text-align: justify;
+
+}
 section#about> #aboutt >div>div{
     color: white;
     margin-top: 10px;
     margin-left: 100px;
     font-family: 'Raleway';
 }
+section#about> #aboutt >div>div>div#arriba{
+    display: flex;
+    margin-bottom: 30px;
+    /*margin-left: 70px;
+    margin-right: 30px;
+    background-color: #ffffff7e;
+    width: 100px;
+    justify-content: space-between;
+    height: 30px;
+    padding-top: 10px;*/
+}
+section#about> #aboutt >div>div>div#arriba>div{
+    margin-left: 70px;
+    margin-right: 30px;
+    background-color: #f1f1f138;
+    width: 125px;
+    justify-content: space-between;
+    height: 32px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 50px;
+    
+}
+section#about> #aboutt >div>div>div#abajo{
+    display: flex;
+    /*margin-left: 70px;
+    margin-right: 30px;
+    background-color: #ff9e9e7e;
+    width: 125px;
+    justify-content: space-between;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 50px;*/
+}
+section#about> #aboutt >div>div>div#abajo>div{
+    margin-left: 70px;
+    margin-right: 30px;
+    background-color: #f1f1f138;
+    width: 125px;
+    justify-content: space-between;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50px;
+   
+}
+section#about> div#aboutt >div>div>button{
+    border-radius: 100px;
+    margin-left: 160px;
+    margin-top: 20px;
+}
 
+section#servicios{
+    height: 100vh ;
+    background: #691cad;
+    padding-left: 50px;
+    padding-right: 50px;
+     color: white;
+    background: linear-gradient(142deg,rgba(105, 28, 173, 1) 5%, rgba(105, 28, 173, 1) 5%, rgba(104, 85, 230, 1) 55%, rgba(78, 165, 199, 1) 95%);
+}
+section#servicios>div#title{
+     color: white;
+   /* margin-top: 200px;*/
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+section#servicios>div#acercade{
+     font-family: 'Raleway';
+     text-align: center;
+     margin-top: 30px;
+}
+div#vacio{
+    height: 100px;
+}
+section#servicios>div#service>div#superior{
+    display:flex;
+}
+section#servicios>div#service>div#inferior{
+    display:flex;
+}
+section#servicios>div#service>div#superior img{
+    width: 100px;
+
+}
