@@ -1,263 +1,137 @@
-*{
-    margin:0;
-    padding: 0;
-}
-button{
-    border-radius: 5px;
-    height: 40px;
-    padding: 10px; 
-    width: 150px;
-    padding-bottom: 10px;
-    color: white;
-    background: #4ea5c7;
-    background: linear-gradient(142deg,rgba(78, 165, 199, 1) 0%, rgba(79, 162, 200, 1) 0%, rgba(104, 85, 230, 1) 48%, rgba(105, 28, 173, 1) 99%, rgba(105, 28, 173, 1) 100%);
 
-}
-body{
-    font-family: "Roboto", sans-serif;
-}
-section#home{
-    height: 100vh ;
-    background: #691cad;
-    padding-left: 50px;
-    padding-right: 50px;
-    background: linear-gradient(142deg,rgba(105, 28, 173, 1) 5%, rgba(105, 28, 173, 1) 5%, rgba(104, 85, 230, 1) 55%, rgba(78, 165, 199, 1) 95%);
-}
-section#home header{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 30px;
-}
-section#home header div h1{
-    color: white;
-}
-section#home header nav ul{
-    display: flex;
-    gap: 10px;
-    margin-top: 7px;
-}
-section#home header nav ul li{
-    list-style: none;
-}
-section#home header nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 1.2 rem;
-}
-section#home #content{
-    display: flex;
-    margin-top: 100px;
-
-}
-section#home >  #content  > div{
-    flex:1;
-}
-section#home #content div h2{
-    font-size: 4rem;
-    color: white;
-}
-section#home #content div P{
-    margin-top: 50px;
-    color: white; 
-   
-}
-section#home > #content > div > div{
-    display: flex;
-    margin-top: 30px;
-    margin-left: 50px;
-    margin-top: 50px;
-}
-section#home > #content > div > div>div{
-    margin-left: 100px;
-    border-radius: 70px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-section#home #content div img{
-    border-radius: 100%;
-}
-section#about{
-    height: 100vh ;
-    background: #691cad;
-    padding-left: 50px;
-    padding-right: 50px;
-    background: linear-gradient(142deg,rgba(105, 28, 173, 1) 5%, rgba(105, 28, 173, 1) 5%, rgba(104, 85, 230, 1) 55%, rgba(78, 165, 199, 1) 95%);
-}
-section#about #aboutt{
-    display: flex;
-    
+body {
+  background-color: #f7f0d4; /* color arena */
+  color: #333;
+  scroll-behavior: smooth;
 }
 
-section#about #aboutt div img{
-    border-radius: 100%;
-    margin-top: 70px;
-    margin-left: 100px;
-}
-section#about> #aboutt >div>div#acerca{
-    color: white;
-    margin-top: 200px;
-    font-family: "Roboto", sans-serif;
-    font-size: 3rem;
-}
-section#about> #aboutt >div>div#parrafo{
-    text-align: justify;
-
-}
-section#about> #aboutt >div>div{
-    color: white;
-    margin-top: 50px;
-    margin-left: 100px;
-    font-family: 'Raleway';
-    font-size: 1rem;
-}
-section#about> #aboutt >div>div>div#arriba{
-    display: flex;
-    margin-bottom: 30px;
-    
-}
-section#about> #aboutt >div>div>div#arriba>div{
-    margin-left: 70px;
-    margin-right: 30px;
-    background-color: #f1f1f138;
-    width: 125px;
-    justify-content: space-between;
-    height: 32px;
-    padding-top: 10px;
-    text-align: center;
-    border-radius: 50px;
-    
-}
-section#about> #aboutt >div>div>div#abajo{
-    display: flex;
-    /*margin-left: 70px;
-    margin-right: 30px;
-    background-color: #ff9e9e7e;
-    width: 125px;
-    justify-content: space-between;
-    height: 30px;
-    padding-top: 10px;
-    border-radius: 50px;*/
-}
-section#about> #aboutt >div>div>div#abajo>div{
-    margin-left: 70px;
-    margin-right: 30px;
-    background-color: #f1f1f138;
-    width: 125px;
-    justify-content: space-between;
-    height: 30px;
-    text-align: center;
-    padding-top: 10px;
-    border-radius: 50px;
-   
-}
-section#about> div#aboutt >div>div>button{
-    border-radius: 100px;
-    margin-left: 120px;
-    margin-top: 20px;
-    font-size: 2rem;
-    height: 70px;
-    width: 250px;
-    text-align: center;
-
+header {
+  background-color: #c8f9ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
 }
 
-section#servicios{
-    height: 100vh ;
-    background: #691cad;
-    padding-left: 50px;
-    padding-right: 50px;
-     color: white;
-    background: linear-gradient(142deg,rgba(105, 28, 173, 1) 5%, rgba(105, 28, 173, 1) 5%, rgba(104, 85, 230, 1) 55%, rgba(78, 165, 199, 1) 95%);
-}
-section#servicios>div#title{
-     color: white;
-   /* margin-top: 200px;*/
-    font-family: "Roboto", sans-serif;
-    font-size: 2rem;
-    text-align: center;
-}
-section#servicios>div#acercade{
-     font-family: 'Raleway';
-     text-align: center;
-     margin-top: 30px;
-}
-div#vacio{
-    height: 100px;
-}
-section#servicios>div#service>div#superior{
-    display:flex;
-    margin-right: 50px
-    
-    ;
-}
-section#servicios>div#service>div#inferior{
-    display:flex;
-}
-section#servicios>div#service>div#superior img{
-    width: 100px;
-    margin-top: 40px;
-    
-}
-section#servicios>div#service>div#inferior img{
-    width: 100px;
-    margin-top: 40px;
-
-}
-section#skills{
-    height: 100vh ;
-    background: #691cad;
-    padding-left: 50px;
-    padding-right: 50px;
-     color: white;
-    background: linear-gradient(142deg,rgba(105, 28, 173, 1) 5%, rgba(105, 28, 173, 1) 5%, rgba(104, 85, 230, 1) 55%, rgba(78, 165, 199, 1) 95%);
-}
-section#skills div#skil{
-     color: white;
-    /*margin-top: 20px;*/
-    font-family: "Roboto", sans-serif;
-    font-size: 2rem;
-    text-align: center;
-}
-section#skills>div#habilidad>div{
-    display: flex;
-    background-color: rgba(255, 255, 255, 0.445);
-    margin-left: 30px;
-    justify-content: center;
-    margin-top: 50px;
-    border-radius: 50px;
-}
-section#skills>div#habilidad> div>div#barras{
-    background-color: white;
-    border-radius: 50px;
-    width: 900px;
-    height: 30px;
-    margin-left: 50px;
+header h1 {
+  display: flex;
+  align-items: center;
+  color: #0095b6;
+  font-size: 1.5rem;
 }
 
-section#skills>div#habilidad> div>div#barras>div#barraP{
-    background-color: #691cad;
-    width: 70%;
-    height: 30px;
-    border-radius: 50px;
-    text-align: center;
+header nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
 }
-section#skills>div#habilidad> div>div#barras>div#barraJ{
-    background-color: #691cad;
-    width: 80%;
-    height: 30px;
-    border-radius: 50px;
-    text-align: center;
+
+header nav a:hover {
+  color: #0095b6;
 }
-section#skills>div#habilidad> div>div#barras>div#barraF{
-    background-color: #691cad;
-    width: 80%;
-    height: 30px;
-    border-radius: 50px;
-    text-align: center;
+
+/* --- Sección Arena --- */
+.arena {
+  background-color: #f7f0d4;
+  padding: 3rem 2rem;
+  text-align: center;
 }
-section#skills>div#habilidad> div>div#barras>div#barrasV{
-    background-color: #691cad;
-    width: 100%;
-    height: 30px;
-    border-radius: 50px;
-    text-align: center;
+
+.arena h2 {
+  color: #9a2b2b;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.arena img {
+  max-width: 400px;
+  width: 80%;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* --- Sección Azul --- */
+.azul {
+  background-color: #33b3ff;
+  padding: 3rem 1rem;
+}
+
+.azul h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.producto {
+  background: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.producto:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.producto img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.producto h3 {
+  margin: 0.5rem 0;
+}
+
+.producto p {
+  color: #0095b6;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+
+footer {
+  background-color: #001f3f;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  header nav {
+    margin-top: 1rem;
+  }
+
+  .arena img {
+    max-width: 300px;
+  }
 }
