@@ -19,7 +19,7 @@
           <a class="nav-link active" aria-current="page" href="#">Productos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Carrito</a>
+          <a class="nav-link" href="./carrito.php">Carrito</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./login.php">Perfil</a>
